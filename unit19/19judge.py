@@ -3,7 +3,7 @@ k = int(input())
 for i in range(k):
     for j in range(1, k*2):
         if (k-j) > i or (j-k) > i:
-            print('-', end='')
+            print(' ', end='')
         else:
             print('*', end='')
 
